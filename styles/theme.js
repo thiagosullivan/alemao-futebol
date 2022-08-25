@@ -1,6 +1,6 @@
 const theme = {
-  primary: '#FF921E',
-  secondary: '#1A1A1A',
+  primary: '#1A1363',
+  secondary: '#1E1E1E',
   third: '#292929',
   gradient: 'linear-gradient(225deg, #313860 0%, #11172B 100%);',
   grey: '#F5F5F5',
