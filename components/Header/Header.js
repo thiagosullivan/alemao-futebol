@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import LogoHeader from '../../assets/alemao-logo.png';
 import { IoIosPin } from 'react-icons/io';
-import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 import { HeaderContainer } from './style'
 
@@ -19,14 +19,17 @@ function Header() {
                 <div className='top__header__col2'>
                     <p>Siga as nossas Redes Sociais:</p>
                     <div className='top__header__sm'>
-                        <a href="facebook.com">
+                        <a href="https://www.facebook.com/alemaofutebol" target="_blank" rel="noopener noreferrer">
                             <FaFacebookF />
                         </a>
-                        <a href="instagram.com">
+                        <a href="https://www.instagram.com/alemao_treinador" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
-                        <a href="youtube.com">
+                        <a href="https://www.youtube.com/channel/UC5g0_uQsY0cA0tFdCBQpGEA" target="_blank" rel="noopener noreferrer">
                             <FaYoutube />
+                        </a>
+                        <a href="https://www.tiktok.com/@alemaofutebol" target="_blank" rel="noopener noreferrer">
+                            <FaTiktok />
                         </a>
                     </div>
                 </div>
