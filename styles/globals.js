@@ -25,6 +25,7 @@ export default createGlobalStyle`
     font: 400 1rem 'Montserrat', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    position: relative;
   }
   p {
     margin-bottom: 0;
