@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import HomeSlider from '../components/HomeSlider/HomeSlider';
+import QuemSomos from '../components/QuemSomos/QuemSomos';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <main >
         <HomeSlider />
+        <QuemSomos />
       </main>
 
       <Footer />
