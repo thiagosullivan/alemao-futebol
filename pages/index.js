@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import HomeSlider from '../components/HomeSlider/HomeSlider';
+import InsideHome from '../components/InsideHome/InsideHome';
+import NewsHome from '../components/NewsHome/NewsHome';
 import QuemSomos from '../components/QuemSomos/QuemSomos';
 import VideoSection from '../components/VideoSection/VideoSection';
 
@@ -18,6 +20,8 @@ export default function Home() {
         <HomeSlider />
         <QuemSomos />
         <VideoSection />
+        <NewsHome />
+        <InsideHome />
       </main>
 
       <Footer />
