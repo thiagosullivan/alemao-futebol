@@ -16,7 +16,7 @@ export default createGlobalStyle`
       border-radius: 5px;
     }
     ::-webkit-scrollbar-track{
-      background: ${({ theme }) => lighten(0.4, theme.primary)};
+      background: ${({ theme }) => lighten(0.4, theme.white)};
     }
     scroll-behavior: smooth;
   }
@@ -26,9 +26,8 @@ export default createGlobalStyle`
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
-  img {
-    /* width: 100%;
-    max-width: 100%; */
+  p {
+    margin-bottom: 0;
   }
   ul {
     list-style: none;

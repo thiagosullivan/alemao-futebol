@@ -44,6 +44,9 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet"></link>
 
+          {/* Bootstrap */}
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossOrigin="anonymous" />
+
           {/* Primary Meta Tags */}
           <meta name="title" content="Alemão Futebol"/>
           <meta name="description" content="Alemão Futebol"/>
