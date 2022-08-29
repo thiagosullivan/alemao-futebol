@@ -49,7 +49,7 @@ export const HomeSliderContainer = styled.section`
             border-radius: 30px;
             text-transform: uppercase;
             display: block;
-            width: 155px;
+            width: 250px;
             transition: all 150ms ease-in;
 
             &:hover {

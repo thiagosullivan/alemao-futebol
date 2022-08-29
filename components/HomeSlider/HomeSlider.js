@@ -25,9 +25,9 @@ function HomeSlider() {
                     <h3>Chute Inicial</h3>
                     <h4>Futebol com arte e disciplina</h4>
                     <p>É a rede oficial de escolas de futebol do Sport Club Corinthians Paulista, atendendo a alunos desde os 04 até os 17 anos de idade.</p>
-                    <Link href="/">
-                        Saiba Mais
-                    </Link>
+                    <a href="https://api.whatsapp.com/send?phone=5543999544832" target="_blank" rel="noopener noreferrer">
+                        Chame no Whatsapp
+                    </a>
                 </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -41,9 +41,9 @@ function HomeSlider() {
                     <h3>Jogo na Arena</h3>
                     <h4>Torcida Chute Inicial</h4>
                     <p>Participação especial da torcida Chute Inicial nos jogos do Timão na Arena Corinthians.</p>
-                    <Link href="/">
-                        Saiba Mais
-                    </Link>
+                    <a href="https://api.whatsapp.com/send?phone=5543999544832" target="_blank" rel="noopener noreferrer">
+                        Chame no Whatsapp
+                    </a>
                 </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -57,9 +57,9 @@ function HomeSlider() {
                     <h3>Jogo na Arena</h3>
                     <h4>Sala de Aquecimento</h4>
                     <p>Os alunos vivenciam o clima pré-jogo e assistem os jogadores em atividade de aquecimento, momentos antes da entrada em campo.</p>
-                    <Link href="/">
-                        Saiba Mais
-                    </Link>
+                    <a href="https://api.whatsapp.com/send?phone=5543999544832" target="_blank" rel="noopener noreferrer">
+                        Chame no Whatsapp
+                    </a>
                 </div>
             </Carousel.Item>
         </Carousel>
