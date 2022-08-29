@@ -14,7 +14,7 @@ function Header() {
             <div className='top__header__content'>
                 <div className='top__header__col1'>
                     <IoIosPin />
-                    <p>Rua Sergipe, 800 - Centro - Londrina  - PR</p>
+                    <p>R. Vila-Lobos, 260 - Jd Mediterrâneo, Londrina - PR</p>
                 </div>
                 <div className='top__header__col2'>
                     <p>Siga as nossas Redes Sociais:</p>
@@ -22,7 +22,7 @@ function Header() {
                         <a href="https://www.facebook.com/alemaofutebol" target="_blank" rel="noopener noreferrer">
                             <FaFacebookF />
                         </a>
-                        <a href="https://www.instagram.com/alemao_treinador" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/alemao_treinador" et="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
                         <a href="https://www.youtube.com/channel/UC5g0_uQsY0cA0tFdCBQpGEA" target="_blank" rel="noopener noreferrer">
