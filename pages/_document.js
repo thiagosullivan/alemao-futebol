@@ -48,21 +48,21 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossOrigin="anonymous" />
 
           {/* Primary Meta Tags */}
-          <meta name="title" content="Alemão Futebol"/>
-          <meta name="description" content="Alemão Futebol"/>
+          <meta name="title" content="Alemão Futebol - Formação Personalizada"/>
+          <meta name="description" content="Alemão escola de futebol e formação de atletas, tem como objetivo desenvolvemos o potencial de crianças e jovens que sonham em seguir carreira no futebol."/>
 
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website"/>
           <meta property="og:url" content="https://www.alemaofutebol.com.br/"/>
-          <meta property="og:title" content="Alemão Futebol"/>
-          <meta property="og:description" content="Alemão Futebol"/>
+          <meta property="og:title" content="Alemão Futebol - Formação Personalizada"/>
+          <meta property="og:description" content="Alemão escola de futebol e formação de atletas, tem como objetivo desenvolvemos o potencial de crianças e jovens que sonham em seguir carreira no futebol."/>
           <meta property="og:image" content="https://i.ibb.co/hD2pcFL/alemao-meta-img.jpg"/>
 
           {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image"/>
           <meta property="twitter:url" content="https://www.alemaofutebol.com.br/"/>
-          <meta property="twitter:title" content="Alemão Futebol"/>
-          <meta property="twitter:description" content="Alemão Futebol"/>
+          <meta property="twitter:title" content="Alemão Futebol - Formação Personalizada"/>
+          <meta property="twitter:description" content="Alemão escola de futebol e formação de atletas, tem como objetivo desenvolvemos o potencial de crianças e jovens que sonham em seguir carreira no futebol."/>
           <meta property="twitter:image" content="https://i.ibb.co/hD2pcFL/alemao-meta-img.jpg"></meta>
         </Head>
         <body>

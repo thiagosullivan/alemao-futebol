@@ -3,7 +3,7 @@ import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import HomeSlider from '../components/HomeSlider/HomeSlider';
 import InsideHome from '../components/InsideHome/InsideHome';
-import NewsHome from '../components/NewsHome/NewsHome';
+import NewsHome from '../components/Partners/Partners';
 import QuemSomos from '../components/QuemSomos/QuemSomos';
 import VideoSection from '../components/VideoSection/VideoSection';
 
@@ -11,8 +11,7 @@ export default function Home() {
   return (
     <div id="home__page">
       <Head>
-        <title>Alemão Futebol</title>
-        <meta name="description" content="Alemão Futebol" />
+        <title>Alemão Futebol - Formação Personalizada</title>
       </Head>
 
       <Header />
@@ -20,8 +19,8 @@ export default function Home() {
         <HomeSlider />
         <QuemSomos />
         <VideoSection />
-        <NewsHome />
         <InsideHome />
+        <NewsHome />
       </main>
 
       <Footer />
