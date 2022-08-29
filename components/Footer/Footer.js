@@ -9,9 +9,11 @@ function Footer() {
   return (
     <FooterContainer>
         <div className='top__footer'>
-          <Link href="/">
-            <Image src={LogoFooter} width={143} height={150} alt="Logo Footer"/>
-          </Link>
+          <div className='footer__logo'>
+            <Link href="/">
+              <Image src={LogoFooter} width={143} height={150} alt="Logo Footer"/>
+            </Link>
+          </div>
           <nav>
             <Link href="/">
               Quem Somos

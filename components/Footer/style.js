@@ -15,6 +15,10 @@ export const FooterContainer = styled.footer`
         justify-content: center;
         align-items: center;
 
+        .footer__logo {
+            cursor: pointer;
+        }
+
         nav {
             border-top: 3px solid ${({theme}) => theme.white};
             border-bottom: 3px solid ${({theme}) => theme.white};

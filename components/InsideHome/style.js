@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { darken } from "polished";
 
 export const InsideHomeContainer = styled.section`
     background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/inside-bg.jpg);
@@ -45,6 +46,10 @@ export const InsideHomeContainer = styled.section`
         svg {
             font-size: 4rem;
             margin-bottom: 1rem;
+        }
+
+        &:hover {
+            color: ${({ theme }) => darken(0.5, theme.white)};
         }
     }
 `

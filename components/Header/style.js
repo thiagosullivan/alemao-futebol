@@ -73,6 +73,10 @@ export const HeaderContainer = styled.header`
             align-items: center;
             justify-content: space-between;
 
+            .header__logo {
+                cursor: pointer;   
+            }
+
             nav {
                 a {
                     font-family: 'Raleway', sans-serif;
