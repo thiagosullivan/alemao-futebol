@@ -1,7 +1,9 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
-import { YouTubeLite } from 'react-youtube-lite';
+// import { YouTubeLite } from 'react-youtube-lite';
 import { MdOutlineClose } from 'react-icons/md';
 import { VideoModal, VideoSectionContainer } from './style';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 function VideoSection() {
 
@@ -43,10 +45,16 @@ function VideoSection() {
         { showModal ?
             <VideoModal refs={modalRef} onClick={closeModal}>
                 <div className='video__container'>
-                    <YouTubeLite
-                        url="https://www.youtube.com/watch?v=NWn19990Rp8"
-                        title="Chute Inicial Corinthians - Faça parte deste Time"
+                    {/* <YouTubeLite
+                        url="https://www.youtube.com/watch?v=Cky8bSNyeJE"
+                        title="RECADO DO ALEMÃO I EX JOGADOR E EX TÉCNICO DO LONDRINA ESPORTE CLUBE I ESCOLA DE FUTEBOL"
                         poster="sddefault"
+                        autoplay="true"
+                    /> */}
+                    <LiteYouTubeEmbed
+                        id="Cky8bSNyeJE"
+                        title="RECADO DO ALEMÃO I EX JOGADOR E EX TÉCNICO DO LONDRINA ESPORTE CLUBE I ESCOLA DE FUTEBOL"
+                        poster="hqdefault"
                     />
                 </div>
                 <div className='video__close'>
