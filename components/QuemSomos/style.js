@@ -8,14 +8,7 @@ export const AboutContainer = styled.section`
     align-items: center;
 
     .sec2__img {
-        display: flex;
-
-        .sec2__img1 {
-            padding-right: 1rem;
-        }
-        .sec2__img2 {
-            padding-top: 1.3rem;
-        }
+        
     }
     .sec2__text {
         max-width: 530px;
@@ -48,7 +41,7 @@ export const AboutContainer = styled.section`
         a {
             color: ${({theme}) => theme.primary};
             border: 1px solid ${({theme}) => theme.primary};
-            width: 230px;
+            width: 280px;
             height: 65px;
             display: flex;
             justify-content: center;
