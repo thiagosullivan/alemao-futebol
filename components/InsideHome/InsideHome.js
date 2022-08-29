@@ -15,55 +15,19 @@ function InsideHome() {
     <InsideHomeContainer>
         <h2>Alemão Futebol na internet</h2>
         <div className='inside__options'>
-            {/* <Link href="/">
-                <InsideCard>
-                    <Image src={InsideOne} widt={335} height={210} />
-                    <p>Alunos</p>
-                </InsideCard>
-            </Link>
-            <Link href="/">
-                <InsideCard>
-                    <Image src={InsideTwo} widt={335} height={210} />
-                    <p>Licenciados</p>
-                </InsideCard>
-            </Link>
-            <Link href="/">
-                <InsideCard>
-                    <Image src={InsideThree} widt={335} height={210} />
-                    <p>Parceiros</p>
-                </InsideCard>
-            </Link>
-            <Link href="/">
-                <InsideCard>
-                    <Image src={InsideFour} widt={335} height={210} />
-                    <p>Metodologia</p>
-                </InsideCard>
-            </Link>
-            <Link href="/">
-                <InsideCard>
-                    <Image src={InsideFive} widt={335} height={210} />
-                    <p>Uniformes</p>
-                </InsideCard>
-            </Link>
-            <Link href="/">
-                <InsideCard>
-                    <Image src={InsideSix} widt={335} height={210} />
-                    <p>Carteirinhas</p>
-                </InsideCard>
-            </Link> */}
-            <a href='/'>
+            <a href='https://www.facebook.com/alemaofutebol'>
                 <FaFacebookF />
                 /alemaofutebol
             </a>
-            <a href='/'>
+            <a href='https://www.instagram.com/alemao_treinador'>
                 <FaInstagram />
                 @alemao_treinador
             </a>
-            <a href='/'>
+            <a href='https://www.tiktok.com/@alemaofutebol'>
                 <FaTiktok />
                 @alemaofutebol
             </a>
-            <a href='/'>
+            <a href='https://www.youtube.com/channel/UC5g0_uQsY0cA0tFdCBQpGEA'>
                 <FaYoutube />
                 Alemão Futebol
             </a>

@@ -10,7 +10,7 @@ function Footer() {
     <FooterContainer>
         <div className='top__footer'>
           <Link href="/">
-            <Image src={LogoFooter} width={143} height={150}/>
+            <Image src={LogoFooter} width={143} height={150} alt="Logo Footer"/>
           </Link>
           <nav>
             <Link href="/">

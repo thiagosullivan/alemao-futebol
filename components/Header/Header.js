@@ -38,7 +38,7 @@ function Header() {
         <div className='bottom__header'>
             <div className='bottom__header__content'>
                 <Link href="/">
-                    <Image src={LogoHeader} width={61} height={65}/>
+                    <Image src={LogoHeader} width={61} height={65} alt="Logo Header" />
                 </Link>
                 <nav>
                     <Link href="/">Home</Link>

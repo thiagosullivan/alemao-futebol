@@ -9,7 +9,7 @@ function QuemSomos() {
   return (
     <AboutContainer>
         <div className='sec2__img'>
-                <Image src={Sec2One} width={490} height={670} />
+                <Image src={Sec2One} width={490} height={670} alt="Quem Somos" />
         </div>
         <div className='sec2__text'>
             <h2>Quem Somos</h2>

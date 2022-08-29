@@ -15,25 +15,25 @@ function Partners() {
         <h2>Nossos Parceiros</h2>
         <div className='partners__content'>
           <a href="https://aleluz.com.br/" target="_blank" rel="noopener noreferrer">
-            <Image src={AleluzLogo} layout="responsive" />
+            <Image src={AleluzLogo} layout="responsive" alt="Aleluz" />
           </a>
           <a href="https://www.cebrac.com.br/londrina" target="_blank" rel="noopener noreferrer">
-            <Image src={CebracLogo} layout="responsive" />
+            <Image src={CebracLogo} layout="responsive" alt="Cebrac" />
           </a>
           <a href="https://digitalcloudmarketing.com.br/" target="_blank" rel="noopener noreferrer">
-            <Image src={DigitalCloudLogo} layout="responsive" />
+            <Image src={DigitalCloudLogo} layout="responsive" alt="Digital Cloud" />
           </a>
           <a href="https://www.karilu.com.br/" target="_blank" rel="noopener noreferrer">
-            <Image src={KariluLogo} layout="responsive" />
+            <Image src={KariluLogo} layout="responsive" alt="Karilu" />
           </a>
           <a href="https://www.graficamassoni.com.br/" target="_blank" rel="noopener noreferrer">
-            <Image src={MassoniLogo} layout="responsive" />
+            <Image src={MassoniLogo} layout="responsive" alt="Massoni" />
           </a>
           <a href="https://www.originalli.com.br/" target="_blank" rel="noopener noreferrer">
-            <Image src={OriginalliLogo} layout="responsive" />
+            <Image src={OriginalliLogo} layout="responsive" alt="Originalli" />
           </a>
           <a href="https://parceirosdaconstrucao.negocio.site/" target="_blank" rel="noopener noreferrer">
-            <Image src={ParceirosContrucaoLogo} layout="responsive" />
+            <Image src={ParceirosContrucaoLogo} layout="responsive" alt="Parceiros da Construção" />
           </a>
         </div>
     </PartnersContainer>
