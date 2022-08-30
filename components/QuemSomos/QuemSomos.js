@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Sec2One from '../../assets/quem-somos.webp';
+import Alemao from '../../assets/alemao.webp';
 import Sec2Two from '../../assets/sec2-img2.png';
 import { AboutContainer } from './style';
 
@@ -9,7 +9,7 @@ function QuemSomos() {
   return (
     <AboutContainer>
         <div className='sec2__img'>
-                <Image src={Sec2One} width={490} height={670} alt="Quem Somos" />
+                <Image src={Alemao} width={490} height={670} alt="Alemão" />
         </div>
         <div className='sec2__text'>
             <h2>Quem Somos</h2>
