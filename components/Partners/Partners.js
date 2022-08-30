@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import AleluzLogo from '../../assets/aleluz-logo.webp';
+import AleluzLogo from '../../assets/aleluz-logo.png';
 import CebracLogo from '../../assets/cebrac-logo.webp';
 import DigitalCloudLogo from '../../assets/digital-cloud-logo.webp';
 import KariluLogo from '../../assets/karilu-logo.webp';
