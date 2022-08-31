@@ -17,6 +17,10 @@ export const LocationContainer = styled.section`
             font-weight: 900;
             margin-bottom: 2rem;
             text-align: center;
+            
+            span {
+                font-size: 2rem;
+            }
         }
         p {
             font-size: 1.5rem;
@@ -62,6 +66,10 @@ export const LocationContainer = styled.section`
                 height: 350px;
                 padding: 2rem;
                 border-radius: 10px;
+
+                &:hover {
+                    color: ${({theme}) => theme.white};
+                }
 
                 &:first-child {
                     margin-right: 2rem;
