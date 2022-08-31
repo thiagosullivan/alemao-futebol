@@ -4,10 +4,12 @@ export const VideoSectionContainer = styled.section`
     background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-youtube-2.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 15rem 0;
 
     @media screen and (max-width: 650px){
         background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-mob-1.png);
+        padding: 7rem 1rem;
     }
 
     h2 {
@@ -43,6 +45,9 @@ export const VideoSectionContainer = styled.section`
 
         @media screen and (max-width: 650px){
             margin-top: 8rem;
+            width: 230px;
+            font-size: 1rem;
+            height: 45px;
         }
     }
 `;
