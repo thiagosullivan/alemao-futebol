@@ -16,6 +16,7 @@ export const LocationContainer = styled.section`
             font-family: 'Raleway', sans-serif;
             font-weight: 900;
             margin-bottom: 2rem;
+            text-align: center;
         }
         p {
             font-size: 1.5rem;
