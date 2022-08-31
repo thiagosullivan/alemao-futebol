@@ -6,6 +6,10 @@ export const VideoSectionContainer = styled.section`
     background-size: cover;
     padding: 15rem 0;
 
+    @media screen and (max-width: 650px){
+        background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-mob-1.png);
+    }
+
     h2 {
         font-family: 'Raleway', sans-serif;
         font-size: 3.1rem;
@@ -35,6 +39,10 @@ export const VideoSectionContainer = styled.section`
         &:hover {
             background-color: ${({theme}) => theme.secondary};
             color: ${({theme}) => theme.white};
+        }
+
+        @media screen and (max-width: 650px){
+            margin-top: 8rem;
         }
     }
 `;

@@ -14,23 +14,42 @@ function HomeSlider() {
 
   return (
     <HomeSliderContainer>
-
-        <Carousel interval={3000} activeIndex={index} onSelect={handleSelect} controls={false}>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/home-banner-1.jpeg"
-                    alt="First slide"
-                />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/home-banner-2.jpeg"
-                    alt="Second slide"
-                />
-            </Carousel.Item>
-        </Carousel>
+        <div className='carousel__desktop'>
+            <Carousel interval={3000} activeIndex={index} onSelect={handleSelect} controls={false}>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/home-banner-1.jpeg"
+                        alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/home-banner-2.jpeg"
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
+            </Carousel>
+        </div>
+        <div className='carousel__mobile'>
+            <Carousel interval={3000} activeIndex={index} onSelect={handleSelect} controls={false}>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-mob-3.png"
+                        alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-mob-2.png"
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
+            </Carousel>
+        </div>
     </HomeSliderContainer>
   )
 }

@@ -86,4 +86,44 @@ export const HomeSliderContainer = styled.section`
         border: 1px solid #000000;
     }
 
+    .carousel__mobile {
+        display: none;
+
+        .carousel-indicators [data-bs-target] {
+            width: 15px !important;
+            height: 15px !important;
+            border-radius: 10px !important;
+            border: 1px solid #000000 !important;
+            position: relative;
+            margin-right: 7px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 2px rgba(0,0,0,.9);
+            display: none;
+        }
+
+        .carousel-indicators .active::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            top: -5px;
+            right: -5px;
+            border-radius: 30px;
+            background-color: transparent;
+            border: 1px solid #ffffff;
+            box-shadow: 0 0px 10px rgba(0,0,0,1);
+        }
+
+    }
+
+    @media screen and (max-width: 760px){
+        .carousel__mobile {
+            display: block;
+        }
+        .carousel__desktop {
+            display: none;
+        }
+    }
+
 `;

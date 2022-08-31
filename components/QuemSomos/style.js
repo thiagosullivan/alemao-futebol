@@ -24,6 +24,10 @@ export const AboutContainer = styled.section`
             color: ${({theme}) => theme.primary};
             line-height: 0.5;
             margin-bottom: 1rem;
+
+            @media screen and (max-width: 550px){
+                line-height: 0.8;
+            }
         }
         h3 {
             font-family: 'Raleway', sans-serif;
@@ -57,6 +61,11 @@ export const AboutContainer = styled.section`
 
             @media screen and (max-width: 980px){
                 margin: 4rem auto 0;
+            }
+
+            @media screen and (max-width: 550px){
+                width: 220px;
+                font-size: 1rem;
             }
         }
     }

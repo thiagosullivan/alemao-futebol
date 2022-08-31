@@ -32,6 +32,10 @@ function Location() {
                     </a>
                 </div>
             </div>
+
+            <a className='whatsapp__btn' href="https://api.whatsapp.com/send?phone=5543999544832" target="_blank" rel="noopener noreferrer">
+              Chame no Whatsapp
+            </a>
         </div>
     </LocationContainer>
   )

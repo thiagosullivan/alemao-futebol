@@ -41,6 +41,10 @@ export const LocationContainer = styled.section`
                 svg {
                     font-size: 3rem;
                     margin-right: 1rem;
+
+                    @media screen and (max-width: 980px){
+                        display: none;
+                    }
                 }
 
                 p {
@@ -63,9 +67,14 @@ export const LocationContainer = styled.section`
                 flex-direction: column;                
                 border: 1px solid rgba(266, 266, 266, .8);
                 max-width: 450px;
-                height: 350px;
+                min-height: 350px;
                 padding: 2rem;
                 border-radius: 10px;
+
+                @media screen and (max-width: 550px){
+                    min-height: 250px;
+                    padding: 1rem;
+                }
 
                 &:hover {
                     color: ${({theme}) => theme.white};
@@ -93,6 +102,10 @@ export const LocationContainer = styled.section`
                     font-weight: 900;
                     margin-bottom: 2rem;
                     text-transform: uppercase;
+
+                    @media screen and (max-width: 550px){
+                        font-size: 1.4rem;
+                    }
                 }
 
                 p {
@@ -106,6 +119,32 @@ export const LocationContainer = styled.section`
                 }
             }
 
+        }
+
+        .whatsapp__btn {
+            background-color: ${({theme}) => theme.white};
+            color: ${({theme}) => theme.secondary};
+            border: 1px solid ${({theme}) => theme.white};
+            width: 280px;
+            height: 65px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 35px;
+            margin: 4rem auto 0;
+
+            @media screen and (max-width: 980px){
+                margin: 4rem auto 0;
+            }
+
+            @media screen and (max-width: 550px){
+                width: 220px;
+                font-size: 1rem;
+            }
         }
     }
 
