@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const VideoSectionContainer = styled.section`
-    background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/section-3.jpg);
-    padding: 10rem 0;
+    background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-youtube.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15rem 0;
 
     h2 {
         font-family: 'Raleway', sans-serif;
@@ -16,10 +18,9 @@ export const VideoSectionContainer = styled.section`
         text-shadow: 0px 0px 8px #000000;
     }
 
-    button {
-        background-color: transparent;
-        border: 1px solid ${({theme}) => theme.white};
-        color: ${({theme}) => theme.white};
+    a {
+        background-color: ${({theme}) => theme.white};
+        color: ${({theme}) => theme.secondary};
         width: 300px;
         height: 65px;
         display: flex;
@@ -28,7 +29,13 @@ export const VideoSectionContainer = styled.section`
         border-radius: 30px;
         font-size: 1.25rem;
         font-weight: bold;
-        margin: 0 auto;
+        margin: 5rem auto 0;
+        transition: all 150ms ease-in;
+
+        &:hover {
+            background-color: ${({theme}) => theme.secondary};
+            color: ${({theme}) => theme.white};
+        }
     }
 `;
 

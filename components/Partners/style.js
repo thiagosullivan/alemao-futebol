@@ -12,6 +12,10 @@ export const PartnersContainer = styled.section`
         color: ${({theme}) => theme.primary};
         line-height: 0.5;
         margin-bottom: 5rem;
+
+        @media screen and (max-width: 980px) {
+            line-height: 0.8;
+        }
     }
 
     .partners__content {
@@ -27,5 +31,9 @@ export const PartnersContainer = styled.section`
             height: auto;
             display: block;
         }
+    }
+
+    @media screen and (max-width: 980px) {
+        text-align: center;
     }
 `

@@ -6,7 +6,7 @@ export const InsideHomeContainer = styled.section`
     padding: 5rem 0 15rem;
     position: relative;
 
-    &::after {
+    /* &::after {
         content: '';
         display: block;
         width: 100%;
@@ -14,6 +14,10 @@ export const InsideHomeContainer = styled.section`
         bottom: 0;
         border-bottom: 200px solid white;
         border-left: 2150px solid transparent;
+    } */
+
+    @media screen and (max-width: 980px){
+        padding: 5rem 2rem;
     }
 
     h2 {
@@ -22,6 +26,10 @@ export const InsideHomeContainer = styled.section`
         font-weight: 700;
         text-align: center;
         margin-bottom: 5rem;
+
+        @media screen and (max-width: 980px){
+            font-size: 3rem;
+        }
     }
 
     .inside__options {
@@ -46,10 +54,18 @@ export const InsideHomeContainer = styled.section`
         svg {
             font-size: 4rem;
             margin-bottom: 1rem;
+
+            @media screen and (max-width: 980px){
+                font-size: 3rem;
+            }
         }
 
         &:hover {
             color: ${({ theme }) => darken(0.5, theme.white)};
+        }
+
+        @media screen and (max-width: 980px){
+            font-size: 1.5rem;
         }
     }
 `

@@ -3,16 +3,16 @@ import styled from "styled-components";
 export const HomeSliderContainer = styled.section`
     position: relative;
 
-    &::after {
+    /* &::after {
         content: '';
         display: block;
-        /* background-color: ${({theme}) => theme.white}; */
+        background-color: ${({theme}) => theme.white};
         width: 100%;
         position: absolute;
         bottom: 0;
         border-bottom: 200px solid white;
         border-left: 2150px solid transparent;
-    }
+    } */
     .slider__item{
         position: absolute;
         top: 20%;

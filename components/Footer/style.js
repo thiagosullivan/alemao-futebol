@@ -9,7 +9,7 @@ export const FooterContainer = styled.footer`
         background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/footer-bg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 5rem 0;
+        padding: 5rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -55,6 +55,10 @@ export const FooterContainer = styled.footer`
             font-family: 'Raleway';
             font-size: 0.75rem;
             text-transform: uppercase;
+
+            @media screen and (max-width: 980px) {
+                text-align: center;
+            }
         }
 
         .footer__sm {
@@ -96,6 +100,10 @@ export const FooterContainer = styled.footer`
                     color: ${({ theme }) => darken(0.5, theme.white)};
                 }
             }
+        }
+
+        @media screen and (max-width: 980px) {
+            font-size: 0.9rem;
         }
     }
 `;

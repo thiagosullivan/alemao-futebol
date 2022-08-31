@@ -36,8 +36,8 @@ function VideoSection() {
     }, [keyPress]);
 
   return (
-    <VideoSectionContainer>
-        <h2>A melhor rede de escolas de futebol licenciadas do Brasil</h2>
+    <VideoSectionContainer id="youtube">
+        {/* <h2>A melhor rede de escolas de futebol licenciadas do Brasil</h2>
         <button onClick={openModal}>
             Assista ao vídeo
         </button>
@@ -45,12 +45,6 @@ function VideoSection() {
         { showModal ?
             <VideoModal refs={modalRef} onClick={closeModal}>
                 <div className='video__container'>
-                    {/* <YouTubeLite
-                        url="https://www.youtube.com/watch?v=Cky8bSNyeJE"
-                        title="RECADO DO ALEMÃO I EX JOGADOR E EX TÉCNICO DO LONDRINA ESPORTE CLUBE I ESCOLA DE FUTEBOL"
-                        poster="sddefault"
-                        autoplay="true"
-                    /> */}
                     <LiteYouTubeEmbed
                         id="Cky8bSNyeJE"
                         title="RECADO DO ALEMÃO I EX JOGADOR E EX TÉCNICO DO LONDRINA ESPORTE CLUBE I ESCOLA DE FUTEBOL"
@@ -61,7 +55,15 @@ function VideoSection() {
                     <MdOutlineClose onClick={() => setShowModal(!showModal)}/>
                 </div>
             </VideoModal>
-        : null }
+        : null } */}
+
+        <a
+            href="https://www.youtube.com/channel/UC5g0_uQsY0cA0tFdCBQpGEA"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Acesse o nosso Canal
+        </a>
     </VideoSectionContainer>
   )
 }

@@ -3,12 +3,14 @@ import styled from "styled-components";
 export const AboutContainer = styled.section`
     max-width: 1170px;
     width: 100%;
-    margin: 3rem auto;
+    margin: 3rem auto 0;
     display: flex;
     align-items: center;
+    padding: 0 2rem;
 
     .sec2__img {
-        
+        margin-bottom: -5px;
+        z-index: -1;
     }
     .sec2__text {
         max-width: 530px;
@@ -52,6 +54,15 @@ export const AboutContainer = styled.section`
             text-transform: uppercase;
             border-radius: 35px;
             margin-top: 4rem;
+        }
+    }
+
+    @media screen and (max-width: 980px){
+        flex-direction: column-reverse;
+
+        .sec2__text {
+            margin-left: 0;
+            margin-bottom: 3.5rem;
         }
     }
 `;

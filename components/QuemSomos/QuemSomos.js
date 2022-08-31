@@ -7,7 +7,7 @@ import { AboutContainer } from './style';
 
 function QuemSomos() {
   return (
-    <AboutContainer>
+    <AboutContainer id="quem-somos">
         <div className='sec2__img'>
                 <Image src={Alemao} width={490} height={670} alt="Alemão" />
         </div>

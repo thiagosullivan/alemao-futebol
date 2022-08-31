@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 function InsideHome() {
   return (
-    <InsideHomeContainer>
+    <InsideHomeContainer id="contato">
         <h2>Alemão Futebol na internet</h2>
         <div className='inside__options'>
             <a href='https://www.facebook.com/alemaofutebol'>

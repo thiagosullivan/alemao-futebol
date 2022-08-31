@@ -15,39 +15,11 @@ function Footer() {
             </Link>
           </div>
           <nav>
-            <Link href="/">
-              Quem Somos
-            </Link>
-            <Link href="/">
-              Notícias & Ações
-            </Link>
-            <Link href="/">
-              Destaques das unidades
-            </Link>
-            <Link href="/">
-              Unidades
-            </Link>
-            <Link href="/">
-              Metodologia
-            </Link>
-            <Link href="/">
-              Alunos
-            </Link>
-            <Link href="/">
-              Licenciados
-            </Link>
-            <Link href="/">
-              Parceiros
-            </Link>
-            <Link href="/">
-              Materiais Oficiais
-            </Link>
-            <Link href="/">
-              Revista Chute Inicial
-            </Link>
-            <Link href="/">
-              Newsletter
-            </Link>
+            <Link href="/">Home</Link>
+            <Link href="/#quem-somos">Quem Somos</Link>
+            <Link href="/#youtube">Youtube</Link>
+            <Link href="/#contato">Contato</Link>
+            <Link href="/#parceiros">Parceiros</Link>
           </nav>
           <p>Siga nossas redes sociais:</p>
           <div className='footer__sm'>

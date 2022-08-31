@@ -11,7 +11,7 @@ import { PartnersContainer } from './style';
 
 function Partners() {
   return (
-    <PartnersContainer>
+    <PartnersContainer id="parceiros">
         <h2>Nossos Parceiros</h2>
         <div className='partners__content'>
           <a href="https://aleluz.com.br/" target="_blank" rel="noopener noreferrer">
