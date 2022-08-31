@@ -7,7 +7,7 @@ function Location() {
   return (
     <LocationContainer>
         <div className='location__content'>
-            <h2>Traga seus filhos(as) para treinar comigo!</h2>
+            <h2>Traga seus filhos&#40;as&#41; para treinar comigo!</h2>
             <p>Escolha o local mais acessível e chame no WhatsApp para mais informações.</p>
 
             <div className='location__infos'>
