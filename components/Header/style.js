@@ -184,6 +184,23 @@ export const HeaderContainer = styled.header`
             }
         }
 
+        .mobile__header__location {
+            display: flex;
+            align-items: center;
+            max-width: 280px;
+            margin-top: 2rem;
+
+            p {
+                font-size: 0.8rem;
+                text-transform: capitalize;
+                margin-left: 10px;
+            }
+
+            svg {
+                font-size: 1.5rem;
+            }
+        }
+
         @media screen and (min-width: 981px){
             display: none;
         }

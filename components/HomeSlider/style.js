@@ -66,10 +66,11 @@ export const HomeSliderContainer = styled.section`
         border: inherit !important;
         position: relative;
         margin-right: 7px;
+        background-color: #000000;
     }
 
     .carousel-indicators {
-        margin-bottom: 10%;
+        margin-bottom: 3%;
     }
 
     .carousel-indicators .active::after {
@@ -82,7 +83,7 @@ export const HomeSliderContainer = styled.section`
         right: -5px;
         border-radius: 30px;
         background-color: transparent;
-        border: 1px solid white;
+        border: 1px solid #000000;
     }
 
 `;

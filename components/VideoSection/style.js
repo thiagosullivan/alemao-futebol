@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const VideoSectionContainer = styled.section`
-    background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-youtube.jpg);
+    background-image: url(https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/banner-youtube-2.jpg);
     background-position: center;
     background-size: cover;
     padding: 15rem 0;

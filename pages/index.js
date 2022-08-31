@@ -3,7 +3,8 @@ import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import HomeSlider from '../components/HomeSlider/HomeSlider';
 import InsideHome from '../components/InsideHome/InsideHome';
-import NewsHome from '../components/Partners/Partners';
+import Location from '../components/Location/Location';
+import Partners from '../components/Partners/Partners';
 import QuemSomos from '../components/QuemSomos/QuemSomos';
 import VideoSection from '../components/VideoSection/VideoSection';
 
@@ -18,9 +19,10 @@ export default function Home() {
       <main >
         <HomeSlider />
         <QuemSomos />
-        <VideoSection />
         <InsideHome />
-        <NewsHome />
+        <VideoSection />
+        <Location />
+        <Partners />
       </main>
 
       <Footer />

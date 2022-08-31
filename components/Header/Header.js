@@ -117,6 +117,10 @@ function Header() {
                             <FaTiktok />
                         </a>
                     </div>
+                    <div className='mobile__header__location'>
+                        <IoIosPin />
+                        <p>R. Vila-Lobos, 260 - Jd Mediterrâneo, Londrina - PR</p>
+                    </div>
                 </nav>
             </div>
         </div>

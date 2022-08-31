@@ -54,6 +54,10 @@ export const AboutContainer = styled.section`
             text-transform: uppercase;
             border-radius: 35px;
             margin-top: 4rem;
+
+            @media screen and (max-width: 980px){
+                margin: 4rem auto 0;
+            }
         }
     }
 
