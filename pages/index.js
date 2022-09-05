@@ -3,6 +3,7 @@ import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import HomeSlider from '../components/HomeSlider/HomeSlider';
 import InsideHome from '../components/InsideHome/InsideHome';
+import InstagramFeed from '../components/InstagramFeed/InstagramFeed';
 import Location from '../components/Location/Location';
 import Partners from '../components/Partners/Partners';
 import QuemSomos from '../components/QuemSomos/QuemSomos';
@@ -21,8 +22,9 @@ export default function Home() {
         <QuemSomos />
         <InsideHome />
         <VideoSection />
-        <Location />
         <Partners />
+        <Location />
+        <InstagramFeed />
       </main>
 
       <Footer />
