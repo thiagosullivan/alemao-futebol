@@ -24,11 +24,22 @@ function InstagramFeed() {
   return (
     <IntaFeedContainer>
         <h2>Instagram</h2>
-        <div className='feed__content'>
-            {feedList.map( item => (
+        <div className='feed__content__desktop'>
+            {feedList.slice(0, 8).map( item => (
                 <a key={item.id} href={item.permalink} className="feed__item" target="_blank" rel="noopener noreferrer">
                     {item.media_type === 'VIDEO' ? (
-                        <video>
+                        <video controls>
+                            <source src={item.media_url} />
+                        </video>)
+                        : <img src={item.media_url}/>}
+                </a>
+            ))}
+        </div>
+        <div className='feed__content__mobile'>
+            {feedList.slice(0, 4).map( item => (
+                <a key={item.id} href={item.permalink} className="feed__item" target="_blank" rel="noopener noreferrer">
+                    {item.media_type === 'VIDEO' ? (
+                        <video controls>
                             <source src={item.media_url} />
                         </video>)
                         : <img src={item.media_url}/>}

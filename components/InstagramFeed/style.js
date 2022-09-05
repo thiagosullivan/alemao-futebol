@@ -19,22 +19,35 @@ export const IntaFeedContainer = styled.section`
         }
     }
 
-    .feed__content {
+    .feed__content__desktop {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 5px;
         padding: 5px;
+        justify-items: center;
+
+        @media screen and (max-width: 980px){
+            display: none;
+        }
     }
 
-    .feed__item {
-        
+    .feed__content__mobile {
+        display: none;
+
+        @media screen and (max-width: 980px){
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 5px;
+            padding: 5px;
+            justify-items: center;
+        }
     }
-    .feed__item img, video {
-        max-width: 400px;
-        max-height: 400px;
+
+    .feed__item, .feed__item img, video {
+        max-width: 300px;
+        max-height: 300px;
         width: 100%;
         height: 100%;
-        max-height: 400px;
         object-fit: cover;
     }
 `;
