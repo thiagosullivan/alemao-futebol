@@ -21,6 +21,7 @@ function InstagramFeed() {
         getInstaFeed();
     }, []);
 
+
   return (
     <IntaFeedContainer>
         <h2>Instagram</h2>

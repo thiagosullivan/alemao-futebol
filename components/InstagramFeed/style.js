@@ -26,6 +26,8 @@ export const IntaFeedContainer = styled.section`
         padding: 5px;
         justify-items: center;
 
+        
+
         @media screen and (max-width: 980px){
             display: none;
         }
