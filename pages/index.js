@@ -8,6 +8,7 @@ import Location from '../components/Location/Location';
 import Partners from '../components/Partners/Partners';
 import QuemSomos from '../components/QuemSomos/QuemSomos';
 import VideoSection from '../components/VideoSection/VideoSection';
+import WhatsappButton from '../components/Whatsapp/WhatsappButton';
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <InstagramFeed />
       </main>
 
+      <WhatsappButton />
       <Footer />
     </div>
   )
